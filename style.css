@@ -1,0 +1,85 @@
+html{
+    font-size: 62.5%;
+    font-family: "Urbanist", sans-serif;
+    
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    font-size: 3rem;
+}
+.container{
+    height: 90vh;
+    width: 40vw;
+    /* border-style: solid;
+    border-color: black;
+    border-width: 0.4rem; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    background-color: #FEF9F2;
+   
+    color: #789DBC;
+}
+.internal-container{
+    margin:2rem 5rem 2rem 5rem;
+}
+.search{
+    height: 8rem;
+}
+.cityname{
+    
+    padding: 2rem 2rem;
+    
+    all: unset;
+    box-sizing: border-box;
+    height: 2.5rem;
+    width: 18rem;
+    font-size: 2rem;
+    background-color: #FFE3E3;
+    border-radius: 1rem;
+    margin-bottom: 4rem;
+}
+.cityname::placeholder{
+    font-size: 2rem;
+    color: #789DBC;
+}
+
+.fa-solid{
+    padding-top: 1rem;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.weather_header{
+    margin:3rem 5rem 5rem 5rem;
+}
+
+.temprature{
+    text-align: center;
+    font-size: 6rem;
+    color: #789DBC;
+}
+.addcity{
+    text-align: center;
+    font-size: 5rem;
+    color: #789DBC;
+}
+.cityHead{
+    margin: 2rem 2rem;
+    color: #789DBC;
+}
+.weathercity{
+    text-transform: capitalize;
+}
